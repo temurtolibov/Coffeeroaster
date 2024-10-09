@@ -1,0 +1,42 @@
+.section2 {
+  background-image: url("../../images/section2-bg.png");
+  max-height: 703px;
+}
+
+.choose-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-text h2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  @include textStyle(700, 50px, 58.59px, white, center);
+}
+
+.choose-text p {
+  max-width: 581px;
+  @include textStyle(400, 16px, 28px, white, center);
+}
+
+.section2-boxes {
+  @include flexStyle(flex, center, space-between);
+  padding-top: 80px;
+}
+
+.box-s2 img {
+  width: 400px;
+}
+
+.box-s2-text h4 {
+  padding-top: 28px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  @include textStyle(500, 30px, 35.16px, #333, left);
+}
+
+.box-s2-text p {
+  width: 377px;
+  @include textStyle(400, 18px, 28px, #333, left);
+}

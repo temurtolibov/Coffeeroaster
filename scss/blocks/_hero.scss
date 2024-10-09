@@ -1,0 +1,32 @@
+.hero-section {
+  background-image: url("../../images/header-bg.png");
+}
+
+.header-main-img {
+  position: absolute;
+  top: 62px;
+  right: 0;
+}
+
+.hero-text h2 {
+  width: 447px;
+  padding-top: 156px;
+  padding-bottom: 24px;
+  @include textStyle(700, 64px, 75px, #333, left);
+}
+
+.hero-text p {
+  width: 447px;
+  padding-bottom: 34px;
+  @include textStyle(400, 16px, 24px, #333, left);
+}
+
+button:hover {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 100px;
+  background-color: #56f1cf;
+  letter-spacing: 1px;
+  margin-bottom: 249px;
+  @include textStyle(500, 16px, 18.75px, #000, start);
+}

@@ -1,0 +1,16 @@
+.header {
+  @include flexStyle(flex, center, space-between);
+  padding: 40px 50px;
+}
+
+.site-header {
+  background-image: url("../../images/header-bg.png");
+}
+
+.ahref ul {
+  @include flexStyle(flex, center, start);
+  column-gap: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include textStyle(700, 12px, 14.06px, #333, left);
+}

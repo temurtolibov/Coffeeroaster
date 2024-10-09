@@ -1,18 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body{
-    // font-family: "", "";
+body {
+  font-family: "Roboto";
 }
 
-.container{
-    // width: ___px;
-    margin: 0 auto;
-    padding: 0 20px;
+.container {
+  width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 100px;
+  background-color: #0a775f;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 249px;
+  @include textStyle(500, 16px, 18.75px, #fff, center);
 }
